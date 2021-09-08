@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='用cmd指令创建博客原空间，在myblog中会生成一系列文件
+hugo new site myblog(空间名)   通过gitbash在 https://themes.gohugo.io/下载主题 到原空间的themes文件下到原空间的themes文件下
+  本地启动的时候指定主题名，访问 http://localhost:1313/
+  hugo server -t 主题名	--buildDrafts  image-20210907170459655 
+ 在post目录下创建第一篇文章
+hugo new post/test/myblog.md  image-20210907170857808 
+  把博客部署到github，这行命令会在原空间生成pubilc文件(已经存在则更新)
+  hugo --theme=hugo-theme-stack --baseUrl=&amp;#34;https://huashengzheng.github.io&amp;#34; --buildDrafts  1631089520 
+ 在public目录执行git命令
+git init git add . git commit -m &amp;#34;第一次提交&amp;#34; git remote add origin https://github.com/huashengzheng/huashengzheng.github.io.git 推到git git push -f -u origin master (这个-f 谨慎用，把远程git强制更新成本地的) 需要git账号和token'><title>Hugo常用操作</title>
+
+<link rel='canonical' href='https://huashengzheng.github.io/p/hugo%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Hugo常用操作'>
+<meta property='og:description' content='用cmd指令创建博客原空间，在myblog中会生成一系列文件
+hugo new site myblog(空间名)   通过gitbash在 https://themes.gohugo.io/下载主题 到原空间的themes文件下到原空间的themes文件下
+  本地启动的时候指定主题名，访问 http://localhost:1313/
+  hugo server -t 主题名	--buildDrafts  image-20210907170459655 
+ 在post目录下创建第一篇文章
+hugo new post/test/myblog.md  image-20210907170857808 
+  把博客部署到github，这行命令会在原空间生成pubilc文件(已经存在则更新)
+  hugo --theme=hugo-theme-stack --baseUrl=&amp;#34;https://huashengzheng.github.io&amp;#34; --buildDrafts  1631089520 
+ 在public目录执行git命令
+git init git add . git commit -m &amp;#34;第一次提交&amp;#34; git remote add origin https://github.com/huashengzheng/huashengzheng.github.io.git 推到git git push -f -u origin master (这个-f 谨慎用，把远程git强制更新成本地的) 需要git账号和token'>
+<meta property='og:url' content='https://huashengzheng.github.io/p/hugo%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/'>
+<meta property='og:site_name' content='by_华生的博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2021-09-07T11:57:12&#43;08:00'/><meta property='article:modified_time' content='2021-09-07T11:57:12&#43;08:00'/>
+<meta name="twitter:title" content="Hugo常用操作">
+<meta name="twitter:description" content="用cmd指令创建博客原空间，在myblog中会生成一系列文件
+hugo new site myblog(空间名)   通过gitbash在 https://themes.gohugo.io/下载主题 到原空间的themes文件下到原空间的themes文件下
+  本地启动的时候指定主题名，访问 http://localhost:1313/
+  hugo server -t 主题名	--buildDrafts  image-20210907170459655 
+ 在post目录下创建第一篇文章
+hugo new post/test/myblog.md  image-20210907170857808 
+  把博客部署到github，这行命令会在原空间生成pubilc文件(已经存在则更新)
+  hugo --theme=hugo-theme-stack --baseUrl=&amp;#34;https://huashengzheng.github.io&amp;#34; --buildDrafts  1631089520 
+ 在public目录执行git命令
+git init git add . git commit -m &amp;#34;第一次提交&amp;#34; git remote add origin https://github.com/huashengzheng/huashengzheng.github.io.git 推到git git push -f -u origin master (这个-f 谨慎用，把远程git强制更新成本地的) 需要git账号和token">
+    </head>
+    <body class="
+    article-page 
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        on-phone--column extended
+    
+">
+    
+        <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hue973ea3758a3dc58d9c6ddcee73cb037_97195_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+            </figure>
+            
+        
+        <h1 class="site-name"><a href="https://huashengzheng.github.io">by_华生的博客</a></h1>
+        <h2 class="site-description">hello     world</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' target="_blank">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>暗色模式</span>
+            </li>
+        
+    </ol>
+</aside>
+
+    
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <h2 class="article-title">
+        <a href="/p/hugo%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/">Hugo常用操作</a>
+    </h2>
+
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 07, 2021</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    <ol>
+<li>
+<p>用cmd指令创建博客原空间，在myblog中会生成一系列文件</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"> <span class="n">hugo</span> <span class="k">new</span>  <span class="n">site</span>  <span class="nf">myblog</span><span class="o">(</span><span class="n">空间名</span><span class="o">)</span>
+</code></pre></div></li>
+<li>
+<p>通过gitbash在 <a class="link" href="https://themes.gohugo.io/"  target="_blank" rel="noopener"
+    >https://themes.gohugo.io/</a>下载主题 到原空间的themes文件下到原空间的themes文件下</p>
+</li>
+<li>
+<p>本地启动的时候指定主题名，访问   http://localhost:1313/</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java">     <span class="n">hugo</span> <span class="n">server</span>  <span class="o">-</span><span class="n">t</span> <span class="n">主题名</span>	 <span class="o">--</span><span class="n">buildDrafts</span>
+</code></pre></div><p><figure 
+	>
+	<a href="https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20210907170459655.48k1jhxkhfs0.png" >
+		<img src="https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20210907170459655.48k1jhxkhfs0.png"
+			
+			
+			
+			loading="lazy"
+			alt="image-20210907170459655">
+	</a>
+	
+	<figcaption>image-20210907170459655</figcaption>
+	
+</figure></p>
+<ol start="4">
+<li>
+<p>在post目录下创建第一篇文章</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="n">hugo</span> <span class="k">new</span> <span class="n">post</span><span class="o">/</span><span class="n">test</span><span class="o">/</span><span class="n">myblog</span><span class="o">.</span><span class="na">md</span>
+</code></pre></div><p><figure 
+	>
+	<a href="https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20210907170857808.3d7n8cq4t340.png" >
+		<img src="https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20210907170857808.3d7n8cq4t340.png"
+			
+			
+			
+			loading="lazy"
+			alt="image-20210907170857808">
+	</a>
+	
+	<figcaption>image-20210907170857808</figcaption>
+	
+</figure></p>
+</li>
+<li>
+<p>把博客部署到github，这行命令会在原空间生成<strong>pubilc</strong>文件(已经存在则更新)</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown">hugo --theme=hugo-theme-stack --baseUrl=&#34;https://huashengzheng.github.io&#34; --buildDrafts
+</code></pre></div><p><figure 
+	>
+	<a href="https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/1631089520.7jezqzw12ao0.jpg" >
+		<img src="https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/1631089520.7jezqzw12ao0.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="1631089520">
+	</a>
+	
+	<figcaption>1631089520</figcaption>
+	
+</figure></p>
+<ol start="6">
+<li>
+<p>在<strong>public</strong>目录执行git命令</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="n">git</span> <span class="n">init</span>
+<span class="n">git</span> <span class="n">add</span> <span class="o">.</span>
+<span class="n">git</span>  <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s">&#34;第一次提交&#34;</span>
+
+<span class="n">git</span>  <span class="n">remote</span> <span class="n">add</span> <span class="n">origin</span> <span class="n">https</span><span class="o">:</span><span class="c1">//github.com/huashengzheng/huashengzheng.github.io.git    
+</span><span class="c1"></span><span class="n">推到git</span>
+<span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">f</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="nf">master</span> <span class="o">(</span><span class="n">这个</span><span class="o">-</span><span class="n">f</span> <span class="n">谨慎用</span><span class="err">，</span><span class="n">把远程git强制更新成本地的</span><span class="o">)</span>
+<span class="n">需要git账号和token</span>    
+</code></pre></div><p><figure 
+	>
+	<a href="https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/YO2_K.nv44dz1bf6o.png" >
+		<img src="https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/YO2_K.nv44dz1bf6o.png"
+			
+			
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+</li>
+</ol>
+<p>7.完成后git就能看到刚刚的更新</p>
+<p><figure 
+	>
+	<a href="https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/1631091227%281%29.lqwir268r8w.jpg" >
+		<img src="https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/1631091227%281%29.lqwir268r8w.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="1631091227(1)">
+	</a>
+	
+	<figcaption>1631091227(1)</figcaption>
+	
+</figure></p>
+<p>8.访问<strong>huashengzheng.github.io</strong>就能看到博文内容了</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+     
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2021 by_华生的博客
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.2.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

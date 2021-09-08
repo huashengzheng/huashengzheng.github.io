@@ -1,0 +1,1830 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>by_华生的博客</title>
+        <link>https://huashengzheng.github.io/</link>
+        <description>Recent content on by_华生的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 07 Sep 2021 11:57:12 +0800</lastBuildDate><atom:link href="https://huashengzheng.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo常用操作</title>
+        <link>https://huashengzheng.github.io/p/hugo%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Tue, 07 Sep 2021 11:57:12 +0800</pubDate>
+        
+        <guid>https://huashengzheng.github.io/p/hugo%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</guid>
+        <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;用cmd指令创建博客原空间，在myblog中会生成一系列文件&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt; &lt;span class=&#34;n&#34;&gt;hugo&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt;  &lt;span class=&#34;n&#34;&gt;site&lt;/span&gt;  &lt;span class=&#34;nf&#34;&gt;myblog&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;空间名&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通过gitbash在 &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://themes.gohugo.io/&lt;/a&gt;下载主题 到原空间的themes文件下到原空间的themes文件下&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本地启动的时候指定主题名，访问   http://localhost:1313/&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;     &lt;span class=&#34;n&#34;&gt;hugo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;server&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;t&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;主题名&lt;/span&gt;	 &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;buildDrafts&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20210907170459655.48k1jhxkhfs0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20210907170459655.48k1jhxkhfs0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20210907170459655&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20210907170459655&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;在post目录下创建第一篇文章&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;hugo&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;post&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;test&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;myblog&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;md&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20210907170857808.3d7n8cq4t340.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20210907170857808.3d7n8cq4t340.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20210907170857808&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20210907170857808&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;把博客部署到github，这行命令会在原空间生成&lt;strong&gt;pubilc&lt;/strong&gt;文件(已经存在则更新)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;hugo --theme=hugo-theme-stack --baseUrl=&amp;#34;https://huashengzheng.github.io&amp;#34; --buildDrafts
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/1631089520.7jezqzw12ao0.jpg&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/1631089520.7jezqzw12ao0.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;1631089520&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;1631089520&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;在&lt;strong&gt;public&lt;/strong&gt;目录执行git命令&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;init&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;git&lt;/span&gt;  &lt;span class=&#34;n&#34;&gt;commit&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;m&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;第一次提交&amp;#34;&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;git&lt;/span&gt;  &lt;span class=&#34;n&#34;&gt;remote&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;origin&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//github.com/huashengzheng/huashengzheng.github.io.git    
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;推到git&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;push&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;f&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;u&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;origin&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;master&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;这个&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;f&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;谨慎用&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;把远程git强制更新成本地的&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;需要git账号和token&lt;/span&gt;    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/YO2_K.nv44dz1bf6o.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/YO2_K.nv44dz1bf6o.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			&gt;
+	&lt;/a&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;7.完成后git就能看到刚刚的更新&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/1631091227%281%29.lqwir268r8w.jpg&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/1631091227%281%29.lqwir268r8w.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;1631091227(1)&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;1631091227(1)&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;8.访问&lt;strong&gt;huashengzheng.github.io&lt;/strong&gt;就能看到博文内容了&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Linux常用操作</title>
+        <link>https://huashengzheng.github.io/p/linux%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Tue, 07 Sep 2021 11:57:12 +0800</pubDate>
+        
+        <guid>https://huashengzheng.github.io/p/linux%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</guid>
+        <description>&lt;h1 id=&#34;linux&#34;&gt;Linux&lt;/h1&gt;
+&lt;h2 id=&#34;1linux的引言&#34;&gt;1.Linux的引言&lt;/h2&gt;
+&lt;p&gt;Linux是一套免费使用和自由传播的类Unix操作系统，是一个基于&lt;code&gt;POSIX和Unix&lt;/code&gt;的&lt;code&gt;多用户&lt;/code&gt;、&lt;code&gt;多任务&lt;/code&gt;、&lt;code&gt;支持多线程和多CPU的操作系统&lt;/code&gt;。伴随着互联网的发展，&lt;code&gt;Linux得到了来自全世界软件爱好者、组织、公司的支持&lt;/code&gt;。它除了在&lt;code&gt;服务器操作系统&lt;/code&gt;方面保持着强劲的发展势头以外，在个人电脑、嵌入式系统上都有着长足的进步。目前Linux存在着许多不同的Linux发行版本，&lt;code&gt;但它们都使用了Linux内核&lt;/code&gt;。Linux可安装在各种计算机硬件设备中，比如手机、平板电脑、路由器、台式计算机。&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011200827437.69ec3oxlbac0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011200827437.69ec3oxlbac0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011200827437&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011200827437&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2linux的诞生&#34;&gt;2.Linux的诞生&lt;/h2&gt;
+&lt;p&gt;20世纪80年代，计算机硬件的性能不断提高，PC的市场不断扩大，当时可供计算机选用的操作系统主要有Unix、DOS和MacOS这几种。Unix价格昂贵，不能运行于&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/PC/107&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PC&lt;/a&gt;；&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/DOS/32025&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DOS&lt;/a&gt;显得简陋，且源代码被软件厂商严格保密；&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/MacOS/8654551&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MacOS&lt;/a&gt;是一种专门用于苹果计算机的操作系统。此时，计算机科学领域迫切需要一个更加完善、强大、廉价和完全开放的操作系统。由于供教学使用的典型操作系统很少，因此当时在荷兰当教授的美国人AndrewS.Tanenbaum编写了一个操作系统，名为&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/MINIX/7106045&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MINIX&lt;/a&gt;，为了向学生讲述操作系统内部工作原理。MINIX虽然很好，但只是一个用于教学目的的简单操作系统，而不是一个强有力的实用操作系统，然而最大的好处就是公开源代码。&lt;code&gt;全世界学计算机的学生都通过钻研MINIX源代码来了解电脑里运行的MINIX操作系统，芬兰赫尔辛基大学大学二年级的学生Linus Torvalds就是其中一个，在吸收了MINIX精华的基础上，Linus于1991年写出了属于自己的Linux操作系统，版本为Linux0.01，是Linux时代开始的标志&lt;/code&gt;。&lt;code&gt;他利用Unix的核心，去除繁杂的核心程序，改写成适用于一般计算机的x86系统，并放在网络上供大家下载，1994年推出完整的核心Version1.0，至此，Linux逐渐成为功能完善、稳定的操作系统，并被广泛使用。&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;总结&lt;/code&gt;:Linux出现于&lt;code&gt;1991年&lt;/code&gt;，是由&lt;code&gt;芬兰赫尔辛基大学学生&lt;/code&gt;,&lt;code&gt;Linus Torvalds&lt;/code&gt;和后来加入的众多爱好者共同开发完成。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011201019566.2vh3tq09mxc0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011201019566.2vh3tq09mxc0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011201019566&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011201019566&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3linux的特点&#34;&gt;3.Linux的特点&lt;/h2&gt;
+&lt;h3 id=&#34;31-完全免费&#34;&gt;3.1 完全免费&lt;/h3&gt;
+&lt;p&gt;Linux是一款免费的操作系统，用户可以通过网络或其他途径免费获得，并可以任意修改其&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/%e6%ba%90%e4%bb%a3%e7%a0%81/3969&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;源代码&lt;/a&gt;。这是其他的操作系统所做不到的。正是由于这一点，来自全世界的无数&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/%e7%a8%8b%e5%ba%8f%e5%91%98/62748&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;程序员&lt;/a&gt;参与了Linux的修改、编写工作，程序员可以根据自己的兴趣和灵感对其进行改变，这让Linux吸收了无数程序员的精华，不断壮大。&lt;/p&gt;
+&lt;h3 id=&#34;32-多用户多任务&#34;&gt;3.2 多用户、多任务&lt;/h3&gt;
+&lt;p&gt;Linux支持多用户，各个用户对于自己的文件设备有自己特殊的权利，保证了各用户之间互不影响。&lt;code&gt;多任务&lt;/code&gt;则是现在电脑最主要的一个特点，Linux可以使多个程序同时并独立地运行。同时``丰富的网络功能，可靠的系统安全，良好的可移植性，具有标准兼容性，出色的速度性能`。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;4linux之cent-os&#34;&gt;4.Linux之Cent OS&lt;/h2&gt;
+&lt;h3 id=&#34;41-centos-引言&#34;&gt;4.1 centos 引言&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;CentOS（Community Enterprise Operating System，中文意思是社区企业操作系统）是Linux发行版之一&lt;/code&gt;，它是来自于Red Hat Enterprise Linux依照&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/%e5%bc%80%e6%94%be%e6%ba%90%e4%bb%a3%e7%a0%81/114160&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;开放源代码&lt;/a&gt;规定释出的源代码所编译而成。由于出自同样的&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/%e6%ba%90%e4%bb%a3%e7%a0%81/3587471&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;源代码&lt;/a&gt;，因此有些要求高度稳定性的&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/%e6%9c%8d%e5%8a%a1%e5%99%a8/100571&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;服务器&lt;/a&gt;以CentOS替代商业版的[Red Hat](&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/Red&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://baike.baidu.com/item/Red&lt;/a&gt; Hat) Enterprise Linux使用。两者的不同，在于&lt;strong&gt;CentOS完全开源&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;42-centos-和-readheat区别&#34;&gt;4.2 centos 和 readheat区别&lt;/h3&gt;
+&lt;p&gt;目前的Linux操作系统主要应用于生产环境，&lt;code&gt;主流企业的Linux系统仍旧是RedHat或者CentOS&lt;/code&gt;,他们出自于同样的源代码,但centos完全免费。其独有的yum命令支持在线升级，可以即时更新系统，不像RedHat 那样需要花钱购买支持服务！&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;5安装-cent-os&#34;&gt;5.安装 Cent OS&lt;/h2&gt;
+&lt;h3 id=&#34;51-环境准备&#34;&gt;5.1 环境准备&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 环境要求:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		&lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; windows7+
+		&lt;span class=&#34;k&#34;&gt;2.&lt;/span&gt; VMware Workstation8+,
+		&lt;span class=&#34;k&#34;&gt;3.&lt;/span&gt; CentOS系统(镜像)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;52-安装cent-os&#34;&gt;5.2 安装Cent OS&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 0.下载centos 
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.centos.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网&lt;/a&gt;:https://www.centos.org/&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://isoredirect.centos.org/centos/7/isos/x86_64/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网的下载地址&lt;/a&gt;:http://isoredirect.centos.org/centos/7/isos/x86_64/&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 1.第一步:打开VMware Workstation
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011204617583.4b985xc839y0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011204617583.4b985xc839y0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011204617583&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011204617583&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 2.选择菜单File的第一项新建虚拟机
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011204734492.50iu53gr68w0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011204734492.50iu53gr68w0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011204734492&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011204734492&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 3.选择自定义虚拟机安装
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011204806260.4ts7znqd4co0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011204806260.4ts7znqd4co0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011204806260&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011204806260&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 4.选择下一步
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/640-20191011204836520.2us70k1wb0y0.jpeg&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/640-20191011204836520.2us70k1wb0y0.jpeg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;640-20191011204836520&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;640-20191011204836520&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 5. 虚拟机设置之后安装系统
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/640-20191011204924175.2w35u7suk0a0.jpeg&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/640-20191011204924175.2w35u7suk0a0.jpeg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;640-20191011204924175&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;640-20191011204924175&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 6.选择虚拟机安装系统以及版本
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011204948492.5b2plysh3bo0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011204948492.5b2plysh3bo0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011204948492&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011204948492&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 7.选择虚拟机名称与位置
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205013122.2zjbplttzzg0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205013122.2zjbplttzzg0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011205013122&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011205013122&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 8.设置处理器数
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205034829.29buctip32f4.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205034829.29buctip32f4.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011205034829&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011205034829&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 9.设置虚拟机内存
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205101094.5yml22oirzw0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205101094.5yml22oirzw0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011205101094&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011205101094&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 10.选择网络模式
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205123751.3tjyu7skz0i0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205123751.3tjyu7skz0i0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011205123751&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011205123751&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 11.选择io总线 下一步
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205152854.4sncxs1uy2a0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205152854.4sncxs1uy2a0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011205152854&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011205152854&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 12.选择新建硬盘
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205218692.1crfkantdqw0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205218692.1crfkantdqw0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011205218692&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011205218692&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 13.选择硬盘类型
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/640.40az639u9cw0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/640.40az639u9cw0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;640&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;640&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 14.拆分硬盘
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/640-20191011205308573.76wbn05xfbs0.jpeg&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/640-20191011205308573.76wbn05xfbs0.jpeg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;640-20191011205308573&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;640-20191011205308573&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 15.设置磁盘位置
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/640-20191011205334834.10yuss4msl34.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/640-20191011205334834.10yuss4msl34.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;640-20191011205334834&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;640-20191011205334834&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 16.创建完成
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/640-20191011205358801.3ds0zhlmg0k0.jpeg&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/640-20191011205358801.3ds0zhlmg0k0.jpeg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;640-20191011205358801&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;640-20191011205358801&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;6linux中目录结构&#34;&gt;6.Linux中目录结构&lt;/h2&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205611690.76ptoscm4740.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011205611690.76ptoscm4740.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011205611690&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011205611690&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 目录结构	
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	bin  (binaries)存放二进制可执行文件																									 [重点]
+	sbin  (super user binaries)存放二进制可执行文件，只有root才能访问
+	etc (etcetera)存放系统配置文件																											[重点]
+	usr  (unix shared resources)用于存放共享的系统资源  																	[重点]
+	home 存放用户文件的根目录																														 [重点]
+	root  超级用户目录																															   [重点]
+	dev (devices)用于存放设备文件
+	lib  (library)存放跟文件系统中的程序运行所需要的共享库及内核模块
+	mnt  (mount)系统管理员安装临时文件系统的安装点
+	boot 存放用于系统引导时使用的各种文件
+	tmp  (temporary)用于存放各种临时文件																							   [重点]
+	var  (variable)用于存放运行时需要改变数据的文件
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;7-linux中常用指令&#34;&gt;7. Linux中常用指令&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Linux中命令格式:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	
+		命令  -选项  参数    如:  ls -l /usr 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;注意:在linux中命令严格区分大小写&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;71-ls-命令&#34;&gt;7.1 ls 命令&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# ls  显示文件和目录列表	(list)
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
+	常用参数:  
+		-l (long)	 长格式显示文件和目录信息
+		-a (all)	 显示所有文件和目录(包含隐藏文件和目录)
+		-R         递归显示指定目录下的文件清单，即会显示指定目录分支内各子目录中的文件清单。
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 0. ls (查看目录下文件和目录)&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# ls&lt;/span&gt;
+aa  aa.txt
+
+&lt;span class=&#34;c1&#34;&gt;# 1. ls -l (长格式展示文件)&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# ls -l&lt;/span&gt;
+总用量 &lt;span class=&#34;m&#34;&gt;60&lt;/span&gt;
+drwxrwxr-x      &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;   user1  user1    &lt;span class=&#34;m&#34;&gt;4096&lt;/span&gt;    Aug &lt;span class=&#34;m&#34;&gt;17&lt;/span&gt; 09:10 abc
+- rw- r-- r--    &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;   user1  user1    &lt;span class=&#34;m&#34;&gt;17&lt;/span&gt;     Aug &lt;span class=&#34;m&#34;&gt;17&lt;/span&gt; 09:04 host.conf
+- rw- r-- r--    &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;   user1  user1    &lt;span class=&#34;m&#34;&gt;38450&lt;/span&gt;  Aug &lt;span class=&#34;m&#34;&gt;17&lt;/span&gt; 09:04 php.ini
+
+&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;长格式含义:&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;
+文件类型 文件权限   链接数  属主    属组    大小   日期   时间    文件名
+d     rwxrwxr-x     &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;     user1  user1 &lt;span class=&#34;m&#34;&gt;4096&lt;/span&gt;  Aug &lt;span class=&#34;m&#34;&gt;17&lt;/span&gt; 09:10  abc
+
+&lt;span class=&#34;c1&#34;&gt;# 2. ls -a (显示所有文件)&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# ls -a&lt;/span&gt;
+.   aa      .bash_history  .bash_profile  .cshrc  .tcshrc
+..  aa.txt  .bash_logout   .bashrc        .pki    .viminfo
+
+&lt;span class=&#34;c1&#34;&gt;# 3. ls -R (递归显示文件)&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# ls -R&lt;/span&gt;
+.:
+aa  aa.txt
+
+./aa:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;72-操作文件命令重点&#34;&gt;7.2 操作文件命令[重点]&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 0.cd 用来切换目录
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;# 1.pwd 显示当前工作目录（print working directory）
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;# 2.touch 创建空文件		 
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;# 3.mkdir 创建目录（make directoriy）
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;			-p 父目录不存在情况下先生成父目录 （parents）            
+&lt;span class=&#34;gh&#34;&gt;# 4.cp 复制文件或目录（copy）
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;      cp  文件名    目录   复制文件到指定目录中
+      cp  -r 目录名    目录   复制指定目录到指定目录中
+			-r 递归处理，将指定目录下的文件与子目录一并拷贝（recursive）     
+&lt;span class=&#34;gh&#34;&gt;# 5.mv 移动文件或目录、文件或目录改名（move）
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;			mv 文件名    新文件名      文件改名
+			mv 文件名    目录名     	文件移动
+			mv 目录名    不存在目录名  目录改名   
+      mv 目录名	  已存在目录名  目录移动
+&lt;span class=&#34;gh&#34;&gt;# 6.rm 删除文件（remove）
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;			-r 同时删除该目录下的所有文件（recursive）
+			-f 强制删除文件或目录（force）
+&lt;span class=&#34;gh&#34;&gt;# 7.rmdir 删除空目录（remove directoriy）
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;# 8.cat 显示文本文件内容 （catenate） 用来展示少量内容
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;# 9.more、less 分页显示文本文件内容   退出用q退出
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;# 10.head、tail查看文本中开头或结尾部分的内容
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		head  -n  5  a.log 查看a.log文件的前5行
+&lt;span class=&#34;gh&#34;&gt;# 11.tail  -f  b.log 循环读取（fellow）
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;# 12.echo 输出命令
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;			echo   I love baby								说明:用来向屏幕输出一句话
+			echo I Love baby  &amp;gt;&amp;gt;  aa.txt			说明:将这段内容输入到 文件中
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;73-网络相关命令&#34;&gt;7.3 网络相关命令&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 1.ip addr 查看IP地址
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		ip a  简化写法
+&lt;span class=&#34;gh&#34;&gt;# 2.ping 测试网络连通性
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		ping 192.168.0.1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;74-tar命令windows-winrar-好压&#34;&gt;7.4 tar命令(windows winrar 好压)&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# tar 命令   
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		-c 建立一个压缩文件的参数指令（create）
+		-x 解开一个压缩文件的参数指令（extract）
+		-z 是否需要用 gzip 压缩  
+		-v 压缩的过程中显示文件（verbose）
+		-f 使用档名，在 f 之后要立即接档名（file）
+
+&lt;span class=&#34;sb&#34;&gt;`通常组合使用:`&lt;/span&gt;
+			tar -cvf aaa.tar file1.txt file2.txt 					将file1和2打包成aaa.tar
+			
+			tar -zcvf aaa.tar.gz file1.txt file2.txt 			将file1和2打包成aaa.tar并压缩
+			tar -zxvf aaa.tar.gz file1.txt file2.txt 			将aaa.tar.gz解压
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;75-systemctl-服务命令&#34;&gt;7.5 systemctl 服务命令&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# systemctl 
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;  systemctl status|start|stop|restart 服务名  mysqld firewalld(防火墙) network(网络)
+	systemctl status 服务名          说明:查看某个服务的运行状态
+	systemctl start 服务名 					说明:启动某个服务
+	systemctl restart 服务名 				说明:重启某个服务
+	systemctl stop 服务名 						说明:停止某个服务
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;76-进程相关命令&#34;&gt;7.6 进程相关命令&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 1.ps 询在当前控制台上运行的进程
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		ps  -aux   说明:查询系统中所有运行的进程，包括后台进程，其中参数a是所有进程，参数x包括不占用控制台的进程，参数u显示用户。
+		ps  -ef		 说明:查询系统中所有运行的进程，包括后台进程，而且可以显示出每个进程的父进程号。
+
+    ps -aux|grep 进程 服务名  关键字 tomcat  重点
+
+&lt;span class=&#34;gh&#34;&gt;# 2.top	命令  动态显示系统进程
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
+
+&lt;span class=&#34;gh&#34;&gt;# 3.kill 杀死进程
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		kill  3029 说明：上述命令中3029是进程号；一般在执行kill命令之前，先用ps或pstree来查询一下将要被杀掉的进程的进程号。 
+		kill  -9  3029 说明:强制终止3029号进程的运行，其中参数-9代表强制的意思,实际上kill命令是向该进程发送信号，
+												该进程接到信号后决定是否停止运行，有些守护进程必须要收到参数9才终止运行。
+		
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;77-vi命令&#34;&gt;7.7 vi命令&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# vi / vim是Unix / Linux上最常用的文本编辑器而且功能非常强大。
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011213625815.hjkb6jcumf4.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011213625815.hjkb6jcumf4.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191011213625815&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191011213625815&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 常用命令:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
+		i						在光标前插入
+ 		I						在光标当前行开始插入
+ 		a						在光标后插入
+ 		A						在光标当前行末尾插入
+ 		o						在光标当前行的下一行插入新行
+ 		O						在光标当前行的上一行插入新行
+ 		----------------重点---------------------------
+ 		:set nu			显示行号
+ 		:set nonu		取消行号
+ 		gg					到文本的第一行
+ 		G						到文本的最后一行
+ 		:n					到文本的第n行
+ 		------------------重点-------------------------
+ 		u						undo,取消上一步操作
+ 		Ctrl + r		redo,返回到undo之前
+ 		
+ 		-------------------重点------------------------
+ 		Shift+ zz		保存退出，与“:wq”作用相同
+		:q					退出不保存
+		:q!					强制退出不保存
+		:wq					保存退出
+		:wq!				强制保存退出
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;78-软件相关命令&#34;&gt;7.8 软件相关命令&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;RPM命令&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;​	&lt;code&gt;RPM是RedHat Package Manager（RedHat软件包管理工具）的缩写，这一文件格式名称虽然打上了RedHat的标志，但是其原始设计理念是开放式的，现在包括RedHat、CentOS、SUSE等Linux的分发版本都有采用，可以算是公认的行业标准了。RPM文件在Linux系统中的安装最为简便,&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# rpm 命令  
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	常用参数:
+      i：安装应用程序（install）
+      e：卸载应用程序（erase）
+      vh：显示安装进度；（verbose   hash） 
+      U：升级软件包；（update） 
+      qa: 显示所有已安装软件包（query all）
+	例子：rmp  -ivh  gcc-c++-4.4.7-3.el6.x86_64.rpm
+
+安装 
+		rpm -ivh  xxxx.rpm
+    rpm -evh  xxxx.rpm
+    rpm -Uvh  xxx.rpm
+    rpm -qa 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;YUM命令&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;​	&lt;code&gt;Yum（全称为 Yellow dog Updater, Modified）是一个在Fedora和RedHat以及SUSE、CentOS中的Shell前端软件包管理器。基於RPM包管理，能够从指定的服务器自动下载RPM包并且安装，可以自动处理依赖性关系，并且一次安装所有依赖的软件包，无须繁琐地一次次下载、安装。&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;例子：
+    yum  install  gcc-c++
+    yum  remove   gcc-c++
+    yum  update   gcc-c++
+    
+    yum install|remove|update  依赖名称
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;使用YUM命令必须连接外部网络&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;79-用户和组相关命令&#34;&gt;7.9 用户和组相关命令&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 1.查看当前用户：whoami
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;# 2.查看登录用户：who
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	-m或am I	只显示运行who命令的用户名、登录终端和登录时间
+	-q或--count	只显示用户的登录账号和登录用户的数量
+&lt;span class=&#34;gh&#34;&gt;# 3.退出用户:		exit
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;gh&#34;&gt;# 4.添加、删除组账号：groupadd、groupdel
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;# 5.添加用户账号：useradd
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		-g	指定组名称  说明:如果创建用户的时候，不指定组名，那么系统会自动创建一个和用户名一样的组名。
+&lt;span class=&#34;gh&#34;&gt;# 6.设置用户密码：passwd　[用户名]
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;# 7.su 切换用户
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		su  root 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;710-权限相关命令&#34;&gt;7.10 权限相关命令&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Linux文件有&lt;code&gt;三种&lt;/code&gt;典型的权限，&lt;code&gt;即r读权限、w写权限和x执行权限&lt;/code&gt;。在长格式输出中在文件类型的后面有9列权限位，实际上这是针对不同用户而设定的。&lt;code&gt;r=4，w=2，x=1&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# chmod 
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;  all = user + group + other 
+  chmod  u+rwx,g+rwx,o+rwx   文件名
+	字母法：chmod u/g/o/a +/-/= rwx 文件
+	
+    [ u/g/o/a ]	含义
+    	u	user 					表示该文件的所有者
+    	g	group 				表示与该文件的所有者属于同一组( group )者，即用户组
+    	o	other 				表示其他以外的人
+    	a	all 					表示这三者皆是
+
+    [ +-= ]	含义
+    	+								增加权限
+    	&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt;								撤销权限
+    	=								设定权限
+
+    rwx	含义
+    	r								read 表示可读取，对于一个目录，如果没有r权限，那么就意味着不能通过ls查看这个目录的内容。
+    	w								write 表示可写入，对于一个目录，如果没有w权限，那么就意味着不能在目录下创建新的文件。
+    	x								excute 表示可执行，对于一个目录，如果没有x权限，那么就意味着不能通过cd进入这个目录。
+   
+   数字法:   4读 2写  1执行
+      chmod 777 文件名
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;8crt终端操作&#34;&gt;8.CRT终端操作&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 0.准备工作
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		安装CRT客户端工具,安装winscp工具
+
+&lt;span class=&#34;gh&#34;&gt;# 1.设置linux获取ip地址 (编辑网络配置文件)	
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		vi /etc/sysconfig/network-scripts/ifcfg-ens33
+
+&lt;span class=&#34;gh&#34;&gt;# 2.修改ens33配置文件:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;    BOOTPROTO=dhcp
+    ONBOOT=yes
+
+&lt;span class=&#34;gh&#34;&gt;# 3.重启启动网路服务加载修改配置生效
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		systemctl restart network
+
+&lt;span class=&#34;gh&#34;&gt;# 4.查看ip地址
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		ip addr
+
+&lt;span class=&#34;gh&#34;&gt;# 5.此时ip已经获取
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		ens33: &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;BROADCAST&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;MULTICAST&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;UP&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;LOWER_UP&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:0c:29:07:16:9e brd ff:ff:ff:ff:ff:ff
+    inet 192.168.202.136/24 brd 192.168.202.255 scope global noprefixroute dynamic ens33
+       valid_lft 1459sec preferred_lft 1459sec
+    inet6 fe80::b22b:7e01:db87:52fe/64 scope link noprefixroute 
+
+&lt;span class=&#34;gh&#34;&gt;# 6.测试外部网络连通(保证宿主机windows可以上网前提)
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		ping www.baidu.com
+
+&lt;span class=&#34;gh&#34;&gt;# 7.使用CRT工具连接即可
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;9安装jdk&#34;&gt;9.安装JDK&lt;/h2&gt;
+&lt;h3 id=&#34;91-下载jdk&#34;&gt;9.1 下载jdk&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 1.下载jdk
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	https://www.oracle.com/technetwork/java/javase/downloads/index.html
+	https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+
+&lt;span class=&#34;gh&#34;&gt;# 2.通过CRT|WinSCP工具将jdk上传到linux系统中	
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013121013589.3n3lc5gqwzi0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013121013589.3n3lc5gqwzi0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013121013589&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013121013589&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&#34;92-tar包安装&#34;&gt;9.2 tar包安装&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 1.将JDK解压缩到指定目录
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	tar -zxvf jdk-8u171-linux-x64.tar.gz -C /usr/
+	注意:-C参数是将JDK解压之后文件放入usr目录中
+
+&lt;span class=&#34;gh&#34;&gt;# 2.进入jdk解压缩目录查看
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	cd /usr/jdk1.8.0_171/
+
+&lt;span class=&#34;gh&#34;&gt;# 3.查看详细信息
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	[root@localhost jdk1.8.0_171]# ls
+		bin        db       javafx-src.zip  lib      man          release  THIRDPARTYLICENSEREADME-JAVAFX.txt
+		COPYRIGHT  include  jre             LICENSE  README.html  src.zip  THIRDPARTYLICENSEREADME.txt
+
+&lt;span class=&#34;gh&#34;&gt;# 4.配置环境变量
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	 vi /etc/profile
+	 
+&lt;span class=&#34;gh&#34;&gt;# 5.在文件末尾加入如下配置
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	export JAVA_HOME=/usr/jdk1.8.0_171
+	export PATH=$PATH:$JAVA_HOME/bin
+
+&lt;span class=&#34;gh&#34;&gt;# 6.加载配置生效
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	source /etc/profile    加载配置生效
+	reboot                 重启系统
+	注意: 以上两个选项选择任意一个即可source可以不用重启立即生效,某些情况下source无法生效时,可以使用重启试试
+
+&lt;span class=&#34;gh&#34;&gt;# 7.测试环境变量
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	java
+	javac
+	java -version
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;93-rpm包安装&#34;&gt;9.3 rpm包安装&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 1.安装jdk
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	[root@localhost ~]# rpm -ivh jdk-8u171-linux-x64.rpm 
+		准备中...                          ################################# [100%]
+		正在升级/安装...
+   		1:jdk1.8-2000:1.8.0_171-fcs        ################################# [100%]
+			Unpacking JAR files...
+        tools.jar...
+        plugin.jar...
+        javaws.jar...
+        deploy.jar...
+        rt.jar...
+        jsse.jar...
+        charsets.jar...
+        localedata.jar...
+
+&lt;span class=&#34;gh&#34;&gt;# 2.搜索默认安装位置
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	 [root@localhost ~]# find / -name &amp;#34;java&amp;#34;
+	 	/usr/java/jdk1.8.0_171-amd64/bin/java
+		/usr/java/jdk1.8.0_171-amd64/jre/bin/java
+
+&lt;span class=&#34;gh&#34;&gt;# 3.配置环境变量
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	 vi /etc/profile
+
+&lt;span class=&#34;gh&#34;&gt;# 4.在文件末尾加入如下配置
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	export JAVA_HOME=/usr/java/jdk1.8.0_171-amd64/
+	export PATH=$PATH:$JAVA_HOME/bin
+
+&lt;span class=&#34;gh&#34;&gt;# 5.加载配置生效
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	source /etc/profile    加载配置生效
+	reboot                 重启系统
+	注意: 以上两个选项选择任意一个即可source可以不用重启立即生效,某些情况下source无法生效时,可以使用重启试试
+
+&lt;span class=&#34;gh&#34;&gt;# 6.测试环境变量
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	java
+	javac
+	java -version
+	
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;10安装tomcat&#34;&gt;10.安装Tomcat&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 0.下载tomcat
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	http://mirrors.tuna.tsinghua.edu.cn/apache/tomcat/tomcat-8/v8.5.46/bin/apache-tomcat-8.5.46.tar.gz
+
+&lt;span class=&#34;gh&#34;&gt;# 1.通过工具上传到Linux系统中
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;gh&#34;&gt;# 2.解压缩到/usr目录中
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	[root@localhost ~]# tar -zxvf apache-tomcat-8.5.46.tar.gz -C /usr/
+	-C 用来指定解压缩的位置
+
+&lt;span class=&#34;gh&#34;&gt;# 3.查看解压内容
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	[root@localhost apache-tomcat-8.5.46]# ls -l
+    总用量 124
+    drwxr-x---. 2 root root  4096 10月 13 12:27 bin
+    -rw-r-----. 1 root root 19318 9月  17 02:19 BUILDING.txt
+    drwx------. 2 root root   238 9月  17 02:19 conf
+    -rw-r-----. 1 root root  5407 9月  17 02:19 CONTRIBUTING.md
+    drwxr-x---. 2 root root  4096 10月 13 12:27 lib
+    -rw-r-----. 1 root root 57011 9月  17 02:19 LICENSE
+    drwxr-x---. 2 root root     6 9月  17 02:17 logs
+    -rw-r-----. 1 root root  1726 9月  17 02:19 NOTICE
+    -rw-r-----. 1 root root  3255 9月  17 02:19 README.md
+    -rw-r-----. 1 root root  7139 9月  17 02:19 RELEASE-NOTES
+    -rw-r-----. 1 root root 16262 9月  17 02:19 RUNNING.txt
+    drwxr-x---. 2 root root    30 10月 13 12:27 temp
+    drwxr-x---. 7 root root    81 9月  17 02:17 webapps
+    drwxr-x---. 2 root root     6 9月  17 02:17 work
+
+&lt;span class=&#34;gh&#34;&gt;# 4.启动tomcat
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	[root@localhost apache-tomcat-8.5.46]# ./bin/startup.sh 
+
+&lt;span class=&#34;gh&#34;&gt;# 5.关闭网络防火墙
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	systemctl stop firewalld	   关闭网络防火墙
+	systemctl disable firewalld  关闭开机自启动(永久关闭)
+
+&lt;span class=&#34;gh&#34;&gt;# 6.在windows中访问tomcat
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	http://10.15.0.8:8080/
+
+&lt;span class=&#34;gh&#34;&gt;# 7.显示tomcat实时控制台信息
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	进入tomcat的logs目录中使用tail -f catalina.out 命令实时查看控制台信息 
+
+&lt;span class=&#34;gh&#34;&gt;# 8.关闭tomcat
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	在tomcat的bin目录下面使用 ./shutdown.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;11安装mysql&#34;&gt;11.安装MySQL&lt;/h2&gt;
+&lt;h3 id=&#34;111-环境准备&#34;&gt;11.1 环境准备&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 1.卸载mariadb，否则安装mysql会出现冲突
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;# 2.执行命令rpm -qa | grep mariadb
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;# 3.列出所有被安装的mariadb rpm 包；
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;# 4.执行命令rpm -e --nodeps mariadb-libs-5.5.56-2.el7.x86_64
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;112-本地安装56版本默认root没有密码&#34;&gt;11.2 本地安装(5.6版本默认root没有密码)&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 0.上传下载好的软件包到系统中
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013124602190.19ok862lytds.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013124602190.19ok862lytds.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013124602190&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013124602190&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 0.执行本地安装包之前必须先安装vim&lt;/span&gt;
+	yum install -y vim
+&lt;span class=&#34;c1&#34;&gt;# 1.安装步骤&lt;/span&gt;
+	rpm -ivh perl-*
+	rpm -ivh net-tools-2.0-0.22.20131004git.el7.x86_64.rpm
+	rpm -ivh mysql-community-common-5.6.42-2.el7.x86_64.rpm
+	rpm -ivh mysql-community-libs-5.6.42-2.el7.x86_64.rpm
+	rpm -ivh mysql-community-client-5.6.42-2.el7.x86_64.rpm
+	rpm -ivh mysql-community-server-5.6.42-2.el7.x86_64.rpm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;113-在线安装&#34;&gt;11.3 在线安装&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 1.添加官方的yum源创建并编辑mysql-community.repo文件
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		vi /etc/yum.repos.d/mysql-community.repo
+&lt;span class=&#34;gh&#34;&gt;# 2.粘贴以下内容到源文件中
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		[mysql56-community]
+    name=MySQL 5.6 Community Server
+    baseurl=http://repo.mysql.com/yum/mysql-5.6-community/el/7/$basearch/
+    enabled=1
+    gpgcheck=0
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+    
+    注意:如果需要安装mysql5.7只需要将baseurl修改即可 
+    	baseurl=http://repo.mysql.com/yum/mysql-5.7-community/el/7/$basearch/
+
+&lt;span class=&#34;gh&#34;&gt;# 3.安装mysql
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	sudo yum install -y mysql-community-server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;114-设置root用户密码&#34;&gt;11.4 设置root用户密码&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 1.启动mysql数据库
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	[root@localhost mysql]# systemctl start mysqld
+
+&lt;span class=&#34;gh&#34;&gt;# 2.修改mysql数据库密码
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	mysqladmin -u root -p password 回车 输入原始密码 在输入新的密码
+	
+	注意:5.7之前版本安装完成之后没有密码,mysql5.7之后的版本的初始密码是随机生成的，放在了 /var/log/mysqld.log
+			使用命令 grep ‘temporary password’ /var/log/mysqld.log 读出来即可
+			ROOT!Q2w
+&lt;span class=&#34;gh&#34;&gt;# 3.登录mysql
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	[root@localhost mysql]# mysql -u root -p  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;115-开启远程访问&#34;&gt;11.5 开启远程访问&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 1.安装完成mysql时,发现mysql数据库,不允许我们远程连接需要修改设置
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013130519305.6nscsha3d2g0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013130519305.6nscsha3d2g0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013130519305&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013130519305&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 2.登录mysql,并选择使用mysql数据库
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013130544372.4vmvr6sowho0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013130544372.4vmvr6sowho0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013130544372&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013130544372&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 3.查看mysql库中的所有表
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013130645099.6geejmkswao0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013130645099.6geejmkswao0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013130645099&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013130645099&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 4.查询user表
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013130748107.5t0qewox3e40.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013130748107.5t0qewox3e40.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013130748107&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013130748107&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 5.执行如下命令
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	grant all privileges on &lt;span class=&#34;ge&#34;&gt;*.*&lt;/span&gt; to &amp;#39;root&amp;#39;@&amp;#39;%&amp;#39; identified by &amp;#39;ROOT!Q2w&amp;#39; with grant option;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013131257409.6bfld1qy7ao0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013131257409.6bfld1qy7ao0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013131257409&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013131257409&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 6.刷新权限
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	flush privileges;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013131324656.9pka067ql60.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013131324656.9pka067ql60.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013131324656&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013131324656&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 7.重启服务
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	systemctl restart mysqld
+&lt;span class=&#34;gh&#34;&gt;# 8.测试连接
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013131419858.572uspg446g0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013131419858.572uspg446g0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013131419858&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013131419858&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;12mysql主从复制&#34;&gt;12.MySQL主从复制&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 0.架构规划
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	192.168.202.201    master  主节点
+	192.168.202.202    slave   从节点
+
+&lt;span class=&#34;gh&#34;&gt;# 1.修改mysql的配置文件
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	[root@localhost mysql]# vim /etc/my.cnf
+
+&lt;span class=&#34;gh&#34;&gt;# 2.分别在配置文件中加入如下配置
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
+	mysql(master):
+		server-id=1
+		log-bin=mysql-bin
+		log-slave-updates
+		slave-skip-errors=all
+	
+	msyql(slave):
+		server-id=2
+		log-bin=mysql-bin
+		log-slave-updates
+		slave-skip-errors=all
+		
+		注意:两个机器的server-id不能一致
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013201349444.1du135stze4g.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013201349444.1du135stze4g.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013201349444&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013201349444&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 3.重启mysql服务
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	systemctl restart mysqld
+
+&lt;span class=&#34;gh&#34;&gt;# 4.登录mysql执行如下命令检测配置是否生效
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	SHOW VARIABLES like &amp;#39;server_id&amp;#39;;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013201523812.64a0eznldyc0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013201523812.64a0eznldyc0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013201523812&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013201523812&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 5.登录master节点执行如下命令
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		show master status;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013203543728.2dwytp5wiolc.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013203543728.2dwytp5wiolc.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013203543728&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013203543728&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 6.登录从节点执行如下命令:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		change master to 
+		master_host=&amp;#39;10.15.0.9&amp;#39;,
+		master_user=&amp;#39;root&amp;#39;,
+		master_password=&amp;#39;root&amp;#39;,
+		master_log_file=&amp;#39;mysql-bin.000001&amp;#39;,
+		master_log_pos=120;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013204344807.1kdgh45w2srk.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013204344807.1kdgh45w2srk.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013204344807&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013204344807&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 7.开启从节点
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		start slave; 
+		stop  slave;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013204413766.3rh1bi21cp40.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191013204413766.3rh1bi21cp40.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191013204413766&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191013204413766&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 8.查看从节点状态
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		show slave status\G;
+
+		&lt;span class=&#34;ge&#34;&gt;**&lt;/span&gt;************************ 1. row &lt;span class=&#34;ge&#34;&gt;**&lt;/span&gt;*************************
+               Slave_IO_State: Waiting for master to send event
+                  Master_Host: 10.15.0.9
+                  Master_User: root
+                  Master_Port: 3306
+                Connect_Retry: 60
+              Master_Log_File: mysql-bin.000001
+          Read_Master_Log_Pos: 120
+               Relay_Log_File: mysqld-relay-bin.000002
+                Relay_Log_Pos: 283
+        Relay_Master_Log_File: mysql-bin.000001
+             Slave_IO_Running: Yes
+            Slave_SQL_Running: Yes
+   	
+    注意:
+    		1.出现 Slave_IO_Running: Yes 和 Slave_SQL_Running: Yes 说名成功,
+    		2.如果在搭建过程出现错误,可以查看查看错误日志文件 cat /var/log/mysqld.log
+ 
+&lt;span class=&#34;gh&#34;&gt;# 9.通过客户端工具进行测试
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	
+&lt;span class=&#34;gh&#34;&gt;# 10.关闭主从复制(在从节点执行)
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	stop slave;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;注意:如果出现Slave I/O: Fatal error: The slave I/O thread stops because master and slave have equal MySQL server UUIDs; these UUIDs must be different for replication to work. Error_code: 1593错误,请执行如下命令,rm -rf /var/lib/mysql/auto.cnf删除这个文件,之所以出现会出现这样的问题，是因为我的从库主机是克隆的主库所在的主机，所以auto.cnf文件中保存的UUID会出现重复.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;13读写分离&#34;&gt;13.读写分离&lt;/h2&gt;
+&lt;h3 id=&#34;131-mycat引言&#34;&gt;13.1 MyCat引言&lt;/h3&gt;
+&lt;p&gt;基于阿里开源的Cobar产品而研发，Cobar的稳定性、可靠性、优秀的架构和性能以及众多成熟的使用案例使得MYCAT一开始就拥有一个很好的起点，站在巨人的肩膀上，我们能看到更远。业界优秀的开源项目和创新思路被广泛融入到MYCAT的基因中，使得MYCAT在很多方面都领先于目前其他一些同类的开源项目，甚至超越某些商业产品。&lt;/p&gt;
+&lt;p&gt;MYCAT背后有一支强大的技术团队，其参与者都是5年以上资深软件工程师、架构师、DBA等，优秀的技术团队保证了MYCAT的产品质量。MYCAT并不依托于任何一个商业公司，因此不像某些开源项目，将一些重要的特性封闭在其商业产品中，使得开源项目成了一个摆设.&lt;/p&gt;
+&lt;h3 id=&#34;132-安装mycat&#34;&gt;13.2 安装Mycat&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 1.下载mycat
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	http://dl.mycat.io/1.6-RELEASE/Mycat-server-1.6-RELEASE-20161028204710-linux.tar.gz
+
+&lt;span class=&#34;gh&#34;&gt;# 2.解压mycat
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	tar -zxvf Mycat-server-1.6-RELEASE-20161028204710-linux.tar.gz
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191014225929256.29x7k1r9cklc.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191014225929256.29x7k1r9cklc.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191014225929256&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191014225929256&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 3.查看解压之后目录]
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	[root@localhost mycat]# ls
+	总用量 12
+	drwxr-xr-x. 2 root root  190 10月 14 22:58 bin
+	drwxrwxrwx. 2 root root    6 3月   1 2016 catlet
+	drwxrwxrwx. 4 root root 4096 10月 14 22:58 conf
+	drwxr-xr-x. 2 root root 4096 10月 14 22:58 lib
+	drwxrwxrwx. 2 root root    6 10月 28 2016 logs
+	-rwxrwxrwx. 1 root root  217 10月 28 2016 version.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191014230002014.6190ffv0bhk0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191014230002014.6190ffv0bhk0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191014230002014&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191014230002014&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 4.移动到/usr目录
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	mv mycat/ /usr/
+
+&lt;span class=&#34;gh&#34;&gt;# 5.配置mycat中conf下的配置schema.xml
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;	&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- 定义MyCat的逻辑库  --&amp;gt;&lt;/span&gt;   
+    &lt;span class=&#34;nt&#34;&gt;&amp;lt;schema&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;test_schema&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;checkSQLschema=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;false&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;sqlMaxLimit=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;100&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;dataNode=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;testNode&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&amp;lt;/schema&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- 定义MyCat的数据节点 --&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;lt;dataNode&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;testNode&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;dataHost=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;dtHost&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;database=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;test&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+   &lt;span class=&#34;nt&#34;&gt;&amp;lt;dataHost&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;dtHost&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;maxCon=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;1000&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;minCon=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;10&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;balance=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt;
+                &lt;span class=&#34;na&#34;&gt;writeType=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;dbType=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;mysql&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;dbDriver=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;native&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;switchType=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;-1&amp;#34;&lt;/span&gt;  &lt;span class=&#34;na&#34;&gt;slaveThreshold=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;100&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;lt;heartbeat&amp;gt;&lt;/span&gt;select user()&lt;span class=&#34;nt&#34;&gt;&amp;lt;/heartbeat&amp;gt;&lt;/span&gt;
+                &lt;span class=&#34;c&#34;&gt;&amp;lt;!--写节点--&amp;gt;&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;lt;writeHost&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;host=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;hostM1&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;url=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;192.168.28.128:3306&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;user=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt;
+                        &lt;span class=&#34;na&#34;&gt;password=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+                  		&lt;span class=&#34;c&#34;&gt;&amp;lt;!--从节点--&amp;gt;&lt;/span&gt;
+                			&lt;span class=&#34;nt&#34;&gt;&amp;lt;readHost&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;host=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;hostS1&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;url=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;192.168.28.129:3306&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;user=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;password=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;lt;/writeHost&amp;gt;&lt;/span&gt;
+   &lt;span class=&#34;nt&#34;&gt;&amp;lt;/dataHost&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 6.配置登陆mycat的权限server.xml
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;system&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- 这里配置的都是一些系统属性，可以自己查看mycat文--&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;lt;property&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;defaultSqlParser&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;druidparser&lt;span class=&#34;nt&#34;&gt;&amp;lt;/property&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;lt;property&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;charset&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;utf8mb4&lt;span class=&#34;nt&#34;&gt;&amp;lt;/property&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/system&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;user&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;lt;property&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;password&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;root&lt;span class=&#34;nt&#34;&gt;&amp;lt;/property&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;lt;property&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;schemas&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;test_schema&lt;span class=&#34;nt&#34;&gt;&amp;lt;/property&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/user&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 7.启动mycat
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	 ./mycat console
+
+&lt;span class=&#34;gh&#34;&gt;# 8.查看日志
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	tail -f ../logs/mycat.log
+
+&lt;span class=&#34;gh&#34;&gt;# 9.数据库连接配置,测试
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;14安装nginx&#34;&gt;14.安装Nginx&lt;/h2&gt;
+&lt;h3 id=&#34;141-nginx的引言&#34;&gt;14.1 Nginx的引言&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Nginx&lt;/code&gt;是一款&lt;a class=&#34;link&#34; href=&#34;http://baike.baidu.com/subview/1318763/16205192.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;轻量级&lt;/a&gt;的&lt;a class=&#34;link&#34; href=&#34;http://baike.baidu.com/subview/3912/15992867.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Web&lt;/a&gt; 服务器/&lt;a class=&#34;link&#34; href=&#34;http://baike.baidu.com/view/1165595.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;反向代理&lt;/a&gt;服务器及&lt;a class=&#34;link&#34; href=&#34;http://baike.baidu.com/view/1524.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;电子邮件&lt;/a&gt;（IMAP/POP3）代理服务器，并在一个BSD-like 协议下发行。由俄罗斯的程序设计师Igor Sysoev所开发，供俄国大型的入口网站及搜索引擎Rambler（俄文：Рамблер）使用。其特点是占有内存少，&lt;a class=&#34;link&#34; href=&#34;http://baike.baidu.com/view/684757.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;并发&lt;/a&gt;能力强，事实上nginx的并发能力确实在同类型的网页服务器中表现较好，中国大陆使用nginx网站用户有：&lt;a class=&#34;link&#34; href=&#34;http://baike.baidu.com/view/1412737.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;京东&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;http://baike.baidu.com/view/2410.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;新浪&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;http://baike.baidu.com/view/6043.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;网易&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;http://baike.baidu.com/view/1591.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;腾讯&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;http://baike.baidu.com/view/3629.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;淘宝&lt;/a&gt;等。&lt;/p&gt;
+&lt;h3 id=&#34;142-nginx的安装&#34;&gt;14.2 Nginx的安装&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 0.安装必要依赖
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	yum install -y gcc pcre-devel zlib-devel
+
+&lt;span class=&#34;gh&#34;&gt;# 1.下载Nginx
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	http://nginx.org/en/download.html
+
+&lt;span class=&#34;gh&#34;&gt;# 2.将Nginx上传到linux中,并解压缩
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	 tar -zxvf nginx-1.11.1.tar.gz
+
+
+&lt;span class=&#34;gh&#34;&gt;# 3.查看Nginx安装目录
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	[root@localhost nginx-1.11.1]# ls
+	auto  CHANGES  CHANGES.ru  conf  configure  contrib  html  LICENSE  man  README  src
+
+&lt;span class=&#34;gh&#34;&gt;# 4.在Nginx安装目录中执行如下命令:(指定安装位置)
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	./configure --prefix=/usr/nginx
+
+&lt;span class=&#34;gh&#34;&gt;# 5.执行上述命令后,执行如下命令:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	make &lt;span class=&#34;err&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; make install
+
+&lt;span class=&#34;gh&#34;&gt;# 6.编译完成后进入编译安装目录/usr/nginx目录中查看:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	[root@localhost nginx]# ls -l
+	总用量 4
+	drwxr-xr-x. 2 root root 4096 10月 14 21:17 conf
+	drwxr-xr-x. 2 root root   40 10月 14 21:17 html
+	drwxr-xr-x. 2 root root    6 10月 14 21:17 logs
+	drwxr-xr-x. 2 root root   19 10月 14 21:17 sbin
+
+&lt;span class=&#34;gh&#34;&gt;# 7.启动nginx,进入nginx安装目录的sbin目录中执行:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	./nginx   
+
+&lt;span class=&#34;gh&#34;&gt;# 8.在windows中浏览器访问,可以看到nginx欢迎页面:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	http://10.15.0.8:80/
+	
+		注意:关闭网络防火墙
+
+&lt;span class=&#34;gh&#34;&gt;# 9.关闭nginx,进入nginx安装目录的sbin目录中执行:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	./nginx -s stop
+
+&lt;span class=&#34;gh&#34;&gt;# 10.nginx配置文件在nginx安装目录的conf目录中:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	[root@localhost conf]# ls -l
+	总用量 60
+	-rw-r--r--. 1 root root 2656 10月 14 21:17 nginx.conf
+	.......
+	注意:nginx.conf为nginx的配置文件,可以在nginx.conf修改nginx默认配置
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;15tomcat负载均衡集群&#34;&gt;15.Tomcat负载均衡集群&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 0.准备多个tomcat
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	 tar -zxvf apache-tomcat-8.5.46.tar.gz &lt;span class=&#34;ni&#34;&gt;#解压缩一个新的tomcat安装包&lt;/span&gt;
+	 mv apache-tomcat-8.5.46 tomcat1 			 &lt;span class=&#34;ni&#34;&gt;#将名称改为tomcat1&lt;/span&gt;
+	 cp -r tomcat1/ tomcat2								 &lt;span class=&#34;ni&#34;&gt;#复制一份&lt;/span&gt;
+	 cp -r tomcat1/ tomcat3                &lt;span class=&#34;ni&#34;&gt;#复制一份&lt;/span&gt;
+
+&lt;span class=&#34;gh&#34;&gt;# 1.此时当前目录中有三个服务器,如下:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	[root@localhost ~]# ls -l
+	总用量 12248
+	-rwxrwxrwx. 1 root root  11623939 10月 13 12:25 apache-tomcat-8.5.46.tar.gz
+	drwxr-xr-x. 9 root root       220 10月 14 21:28 tomcat1
+	drwxr-xr-x. 9 root root       220 10月 14 21:38 tomcat2
+	drwxr-xr-x. 9 root root       220 10月 14 21:38 tomcat3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 2.修改tomcat1端口号:(伪分布式)
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		vim tomcat1/conf/server.xml,命令修改如下内容:
+		a.&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Server&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;port&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;8001&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;shutdown&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;SHUTDOWN&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;   ---关闭端口
+		b.&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Connector&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;port&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;8888&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;protocol&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;HTTP/1.1&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;---http协议端口&lt;/span&gt;
+               &lt;span class=&#34;na&#34;&gt;connectionTimeout&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;20000&amp;#34;&lt;/span&gt;
+               &lt;span class=&#34;na&#34;&gt;redirectPort&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;8443&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&amp;gt;&lt;/span&gt;
+   		c.&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Connector&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;port&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;10010&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;protocol&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;AJP/1.3&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;redirectPort&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;8443&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&amp;gt;&lt;/span&gt; ---AJP协议端口
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 3.修改tomcat2端口号:(伪分布式)
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		vim tomcat2/conf/server.xml,命令修改如下内容:
+  	a.&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Server&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;port&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;8002&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;shutdown&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;SHUTDOWN&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+		b.&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Connector&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;port&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;8889&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;protocol&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;HTTP/1.1&amp;#34;&lt;/span&gt;
+               &lt;span class=&#34;na&#34;&gt;connectionTimeout&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;20000&amp;#34;&lt;/span&gt;
+               &lt;span class=&#34;na&#34;&gt;redirectPort&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;8443&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&amp;gt;&lt;/span&gt;
+   	c.&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Connector&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;port&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;10011&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;protocol&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;AJP/1.3&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;redirectPort&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;8443&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 4.修改tomcat3端口号:(伪分布式)
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		vim tomcat2/conf/server.xml,命令修改如下内容:
+  	a.&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Server&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;port&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;8003&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;shutdown&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;SHUTDOWN&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+		b.&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Connector&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;port&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;8890&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;protocol&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;HTTP/1.1&amp;#34;&lt;/span&gt;
+               &lt;span class=&#34;na&#34;&gt;connectionTimeout&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;20000&amp;#34;&lt;/span&gt;
+               &lt;span class=&#34;na&#34;&gt;redirectPort&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;8443&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&amp;gt;&lt;/span&gt;
+   	c.&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Connector&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;port&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;10012&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;protocol&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;AJP/1.3&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;redirectPort&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;8443&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 5.将多个tomcat启动:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		tomcat1/bin/startup.sh 
+		tomcat2/bin/startup.sh 
+		tomcat3/bin/startup.sh
+    
+&lt;span class=&#34;gh&#34;&gt;# 6.查看tomcat是否启动成功
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		ps -aux|grep tomcat
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://huashengzheng.github.io/Linux.assets/image-20191014215035543.png&#34; &gt;
+		&lt;img src=&#34;https://huashengzheng.github.io/Linux.assets/image-20191014215035543.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191014215035543&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191014215035543&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 7.在windows中分别访问tomcat,都看到主页代表启动成功:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	
+	http://10.15.0.8:8888/
+	http://10.15.0.8:8889/
+	http://10.15.0.8:8890/
+	
+	注意:这步一定要关闭网路防火墙
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 8.将多个tomcat配置到nginx的配置文件中:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	1).在server标签上加入如下配置:
+    upstream tomcat-servers {
+      server 10.15.0.8:8888;
+      server 10.15.0.8:8889;
+      server 10.15.0.8:8890;
+    }
+	2).将配置文件中 location /替换为如下配置:
+		location / {
+			 proxy_pass http://tomcat-servers;
+			 proxy_redirect    off;
+			 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+			 proxy_set_header X-Real-IP $remote_addr;
+			 proxy_set_header Host $http_host;
+			 proxy_next_upstream http_502 http_504 error timeout invalid_header;
+		   }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191014215825240.4kgk3dxiuae0.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191014215825240.4kgk3dxiuae0.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191014215825240&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191014215825240&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 9.进入nginx安装目录sbin目录启动nginx
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	./nginx -c /usr/nginx/conf/nginx.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 10.访问nginx,看到其中一个tomcat画面:
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	http://10.15.0.8/ 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191014220145379.75035q44q040.png&#34; &gt;
+		&lt;img src=&#34;https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191014220145379.75035q44q040.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;image-20191014220145379&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;image-20191014220145379&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&#34;151nginx负载均衡策略&#34;&gt;15.1Nginx负载均衡策略&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 1.轮询
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	 说明: 默认策略,每个请求会按时间顺序逐一分配到不同的后端服务器
+
+&lt;span class=&#34;gh&#34;&gt;# 2.weight 权重
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	说明: weight参数用于指定轮询几率，weight的默认值为1,；weight的数值与访问比率成正比 
+    upstream tomcat-servers {
+        server localhost:8080   weight=2;  
+        server localhost:8081;  
+        server localhost:8082   backup;  
+    }
+    注意：1.权重越高分配到需要处理的请求越多。2.此策略可以与least_conn和ip_hash结合使用主要用于后端服务器性能不均
+
+&lt;span class=&#34;gh&#34;&gt;# 3.ip_hash  4%3=1 
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	　说明:指定负载均衡器按照基于客户端IP的分配方式，这个方法确保了相同的客户端的请求一直发送到相同的服务器，以保证session会话。这样每个访客都固定访问一个后端服务器，可以解决session不能跨服务器的问题。
+	　upstream tomcat-servers {
+        ip_hash;    &lt;span class=&#34;ni&#34;&gt;#保证每个访客固定访问一个后端服务器&lt;/span&gt;
+        server localhost:8080;
+        ......
+    }
+
+&lt;span class=&#34;gh&#34;&gt;# 4.least_conn
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	说明: 把请求转发给连接数较少的后端服务器。轮询算法是把请求平均的转发给各个后端，使它们的负载大致相同；但是，有些请求占用的时间很长，会导致其所在的后端负载较高。这种情况下，least_conn这种方式就可以达到更好的负载均衡效果。
+	upstream tomcat-servers{
+        least_conn;    &lt;span class=&#34;ni&#34;&gt;#把请求转发给连接数较少的后端服务器&lt;/span&gt;
+        server localhost:8080;
+    }
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;16msm配置&#34;&gt;16.MSM配置&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Memcached Session Manager基于memcache缓存的session共享.即使用cacheDB存取session信息，应用服务器接受新请求将session信息保存在cache DB中，当应用服务器发生故障时，调度器会遍历寻找可用节点，分发请求，当应用服务器发现session不在本机内存时，则去cacheDB中查找，如果找到则复制到本机，这样实现session共享和高可用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 0.准备一个memcache服务
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;gh&#34;&gt;# 1.安装memcached
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	 yum install -y memcached
+
+&lt;span class=&#34;gh&#34;&gt;# 2.启动memcached
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	memcached -p 11211 -vvv -u root
+
+&lt;span class=&#34;gh&#34;&gt;# 3.tomcat安装的lib目录中放入与memcache整合jar包
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;		cp *.jar tomcat1/lib
+		cp *.jar tomcat2/lib
+		cp *.jar tomcat3/lib
+
+&lt;span class=&#34;gh&#34;&gt;# 4.配置tomcat目录中conf目录中context.xml(所有tomcat均需要配置)
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;	&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Manager&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;className&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;de.javakaffee.web.msm.MemcachedBackupSessionManager&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;memcachedNodes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;n1:10.15.0.8:11211&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;sticky&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;false&amp;#34;&lt;/span&gt;  
+    		&lt;span class=&#34;na&#34;&gt;sessionBackupAsync&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;false&amp;#34;&lt;/span&gt;  
+        &lt;span class=&#34;na&#34;&gt;requestUriIgnorePattern&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;.*&lt;/span&gt;\.&lt;span class=&#34;s&#34;&gt;(ico|png|gif|jpg|css|js)$&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;transcoderFactoryClass&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;de.javakaffee.web.msm.serializer.kryo.KryoTranscoderFactory&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;/&amp;gt;&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&#34;gh&#34;&gt;# 5.放入测试项目进行测试
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Chinese Test</title>
+        <link>https://huashengzheng.github.io/p/test-chinese/</link>
+        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://huashengzheng.github.io/p/test-chinese/</guid>
+        <description>&lt;img src="https://huashengzheng.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" /&gt;&lt;h2 id=&#34;-0准备工作&#34;&gt;# 0.准备工作&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;思念是最暖的忧伤像一双翅膀&lt;br&gt;
+让我停不了飞不远在过往游荡&lt;br&gt;
+不告而别的你 就算为了我着想&lt;br&gt;
+这么沉痛的呵护 我怎么能翱翔&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=3aypp_YlBzI&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;最暖的憂傷 - 田馥甄&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;图片&#34;&gt;图片&lt;/h2&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 66; 
+			flex-basis: 160px&#34;
+	&gt;
+	&lt;a href=&#34;https://huashengzheng.github.io/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash.jpg&#34; data-size=&#34;667x1000&#34;&gt;
+		&lt;img src=&#34;https://huashengzheng.github.io/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash.jpg&#34;
+			width=&#34;667&#34;
+			height=&#34;1000&#34;
+			srcset=&#34;https://huashengzheng.github.io/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_480x0_resize_q75_box.jpg 480w, https://huashengzheng.github.io/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;Photo by Florian Klauer on Unsplash&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Photo by Florian Klauer on Unsplash&lt;/figcaption&gt;
+	
+&lt;/figure&gt;  &lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 149; 
+			flex-basis: 359px&#34;
+	&gt;
+	&lt;a href=&#34;https://huashengzheng.github.io/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash.jpg&#34; data-size=&#34;1000x667&#34;&gt;
+		&lt;img src=&#34;https://huashengzheng.github.io/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash.jpg&#34;
+			width=&#34;1000&#34;
+			height=&#34;667&#34;
+			srcset=&#34;https://huashengzheng.github.io/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_480x0_resize_q75_box.jpg 480w, https://huashengzheng.github.io/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;Photo by Luca Bravo on Unsplash&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Photo by Luca Bravo on Unsplash&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 133; 
+			flex-basis: 320px&#34;
+	&gt;
+	&lt;a href=&#34;https://huashengzheng.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg&#34; data-size=&#34;1000x750&#34;&gt;
+		&lt;img src=&#34;https://huashengzheng.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg&#34;
+			width=&#34;1000&#34;
+			height=&#34;750&#34;
+			srcset=&#34;https://huashengzheng.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_480x0_resize_q75_box.jpg 480w, https://huashengzheng.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;Photo by Helena Hertz on Unsplash&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Photo by Helena Hertz on Unsplash&lt;/figcaption&gt;
+	
+&lt;/figure&gt;  &lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 66; 
+			flex-basis: 160px&#34;
+	&gt;
+	&lt;a href=&#34;https://huashengzheng.github.io/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34; data-size=&#34;667x1000&#34;&gt;
+		&lt;img src=&#34;https://huashengzheng.github.io/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34;
+			width=&#34;667&#34;
+			height=&#34;1000&#34;
+			srcset=&#34;https://huashengzheng.github.io/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_480x0_resize_q75_box.jpg 480w, https://huashengzheng.github.io/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;Photo by Hudai Gayiran on Unsplash&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Photo by Hudai Gayiran on Unsplash&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Photo by Florian Klauer on Unsplash&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span&gt;)  ![&lt;span class=&#34;nt&#34;&gt;Photo by Luca Bravo on Unsplash&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span&gt;) 
+
+![&lt;span class=&#34;nt&#34;&gt;Photo by Helena Hertz on Unsplash&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span&gt;)  ![&lt;span class=&#34;nt&#34;&gt;Photo by Hudai Gayiran on Unsplash&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;相册语法来自 &lt;a class=&#34;link&#34; href=&#34;https://typlog.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Typlog&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Markdown Syntax Guide</title>
+        <link>https://huashengzheng.github.io/p/markdown-syntax-guide/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://huashengzheng.github.io/p/markdown-syntax-guide/</guid>
+        <description>&lt;img src="https://huashengzheng.github.io/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
+&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
+&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;
+&lt;h4 id=&#34;h4&#34;&gt;H4&lt;/h4&gt;
+&lt;h5 id=&#34;h5&#34;&gt;H5&lt;/h5&gt;
+&lt;h6 id=&#34;h6&#34;&gt;H6&lt;/h6&gt;
+&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
+&lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes&lt;/h2&gt;
+&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
+&lt;h4 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;!-- raw HTML omitted --&gt;
+— &lt;!-- raw HTML omitted --&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
+&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bob&lt;/td&gt;
+&lt;td&gt;27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alice&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;inline-markdown-within-tables&#34;&gt;Inline Markdown within tables&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Italics&lt;/th&gt;
+&lt;th&gt;Bold&lt;/th&gt;
+&lt;th&gt;Code&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h2&gt;
+&lt;h4 id=&#34;code-block-with-backticks&#34;&gt;Code block with backticks&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;code-block-indented-with-four-spaces&#34;&gt;Code block indented with four spaces&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;list-types&#34;&gt;List Types&lt;/h2&gt;
+&lt;h4 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;List item&lt;/li&gt;
+&lt;li&gt;Another item&lt;/li&gt;
+&lt;li&gt;And another item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;nested-list&#34;&gt;Nested list&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Orange&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dairy
+&lt;ul&gt;
+&lt;li&gt;Milk&lt;/li&gt;
+&lt;li&gt;Cheese&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-elements--abbr-sub-sup-kbd-mark&#34;&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;/h2&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;GIF&lt;!-- raw HTML omitted --&gt; is a bitmap image format.&lt;/p&gt;
+&lt;p&gt;H&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;O&lt;/p&gt;
+&lt;p&gt;X&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; + Y&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; = Z&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;CTRL&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;ALT&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;Delete&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; to end the session.&lt;/p&gt;
+&lt;p&gt;Most &lt;!-- raw HTML omitted --&gt;salamanders&lt;!-- raw HTML omitted --&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</description>
+        </item>
+        <item>
+        <title>Rich Content</title>
+        <link>https://huashengzheng.github.io/p/rich-content/</link>
+        <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://huashengzheng.github.io/p/rich-content/</guid>
+        <description>&lt;p&gt;Hugo ships with several &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;youtube-privacy-enhanced-shortcode&#34;&gt;YouTube Privacy Enhanced Shortcode&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;vimeo-simple-shortcode&#34;&gt;Vimeo Simple Shortcode&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>Placeholder Text</title>
+        <link>https://huashengzheng.github.io/p/placeholder-text/</link>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://huashengzheng.github.io/p/placeholder-text/</guid>
+        <description>&lt;img src="https://huashengzheng.github.io/p/placeholder-text/matt-le-SJSpo9hQf7s-unsplash.jpg" alt="Featured image of post Placeholder Text" /&gt;&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
+&lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
+&lt;li&gt;Duce pollice&lt;/li&gt;
+&lt;li&gt;Eris modo&lt;/li&gt;
+&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Comas hunc haec pietate fetum procerum dixit&lt;/li&gt;
+&lt;li&gt;Post torum vates letum Tiresia&lt;/li&gt;
+&lt;li&gt;Flumen querellas&lt;/li&gt;
+&lt;li&gt;Arcanaque montibus omnes&lt;/li&gt;
+&lt;li&gt;Quidem et&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;vagus-elidunt&#34;&gt;Vagus elidunt&lt;/h1&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Van de Graaf Canon&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mane-refeci-capiebant-unda-mulcebat&#34;&gt;Mane refeci capiebant unda mulcebat&lt;/h2&gt;
+&lt;p&gt;Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. &lt;strong&gt;Faces illo pepulere&lt;/strong&gt; tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.&lt;/p&gt;
+&lt;p&gt;Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.&lt;/p&gt;
+&lt;p&gt;Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel &lt;strong&gt;mitis temploque&lt;/strong&gt; vocatus, inque alis, &lt;em&gt;oculos nomen&lt;/em&gt; non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides &lt;strong&gt;parte&lt;/strong&gt;.&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Math Typesetting</title>
+        <link>https://huashengzheng.github.io/p/math-typesetting/</link>
+        <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://huashengzheng.github.io/p/math-typesetting/</guid>
+        <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
+&lt;p&gt;In this example we will be using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;KaTeX&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a partial under &lt;code&gt;/layouts/partials/math.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Within this partial reference the &lt;a class=&#34;link&#34; href=&#34;https://katex.org/docs/autorender.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Auto-render Extension&lt;/a&gt; or host these scripts locally.&lt;/li&gt;
+&lt;li&gt;Include the partial in your templates like so:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; or .Params.math .Site.Params.math &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; partial &lt;span class=&#34;s2&#34;&gt;&amp;#34;math.html&amp;#34;&lt;/span&gt; . &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; end &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;To enable KaTex globally set the parameter &lt;code&gt;math&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in a project&amp;rsquo;s configuration&lt;/li&gt;
+&lt;li&gt;To enable KaTex on a per page basis include the parameter &lt;code&gt;math: true&lt;/code&gt; in content files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Use the online reference of &lt;a class=&#34;link&#34; href=&#34;https://katex.org/docs/supported.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Supported TeX Functions&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;examples&#34;&gt;Examples&lt;/h3&gt;
+
+&lt;p&gt;Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Emoji Support</title>
+        <link>https://huashengzheng.github.io/p/emoji-support/</link>
+        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://huashengzheng.github.io/p/emoji-support/</guid>
+        <description>&lt;img src="https://huashengzheng.github.io/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
+&lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/functions/emojify/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/configuration/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;http://www.emoji-cheat-sheet.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;.emoji {
+  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
