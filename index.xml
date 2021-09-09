@@ -127,7 +127,7 @@
         <pubDate>Tue, 07 Sep 2021 11:57:12 +0800</pubDate>
         
         <guid>https://huashengzheng.github.io/p/linux%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</guid>
-        <description>&lt;h1 id=&#34;linux&#34;&gt;Linux&lt;/h1&gt;
+        <description>&lt;img src="https://cdn.jsdelivr.net/gh/huashengzheng/image-blog@main/image/image-20191011200827437.69ec3oxlbac0.png" alt="Featured image of post Linux常用操作" /&gt;&lt;h1 id=&#34;linux&#34;&gt;Linux&lt;/h1&gt;
 &lt;h2 id=&#34;1linux的引言&#34;&gt;1.Linux的引言&lt;/h2&gt;
 &lt;p&gt;Linux是一套免费使用和自由传播的类Unix操作系统，是一个基于&lt;code&gt;POSIX和Unix&lt;/code&gt;的&lt;code&gt;多用户&lt;/code&gt;、&lt;code&gt;多任务&lt;/code&gt;、&lt;code&gt;支持多线程和多CPU的操作系统&lt;/code&gt;。伴随着互联网的发展，&lt;code&gt;Linux得到了来自全世界软件爱好者、组织、公司的支持&lt;/code&gt;。它除了在&lt;code&gt;服务器操作系统&lt;/code&gt;方面保持着强劲的发展势头以外，在个人电脑、嵌入式系统上都有着长足的进步。目前Linux存在着许多不同的Linux发行版本，&lt;code&gt;但它们都使用了Linux内核&lt;/code&gt;。Linux可安装在各种计算机硬件设备中，比如手机、平板电脑、路由器、台式计算机。&lt;/p&gt;
 &lt;p&gt;&lt;figure 
